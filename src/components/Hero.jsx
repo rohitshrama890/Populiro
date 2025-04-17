@@ -70,7 +70,7 @@ const Hero = () => {
     });
   });
 
-  const getImageSrc = (index) => `./public/images/hero-${index}.jpg`;
+  const getImageSrc = (index) => `images/hero-${index}.jpg`;
 
   return (
     <>
@@ -85,7 +85,7 @@ const Hero = () => {
     <div id="image-frame" className="relative z-10 h-dvh w-screen overflow-hidden rounded-lg bg-white">
         <div>
           <img
-            src="./public/images/hero-4.jpg"
+            src="/images/hero-4.jpg"
             alt="Current Image"
             className="absolute left-0 top-0 size-full object-cover object-center"
           />
