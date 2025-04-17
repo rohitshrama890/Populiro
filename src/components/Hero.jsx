@@ -70,7 +70,7 @@ const Hero = () => {
     });
   });
 
-  const getImageSrc = (index) => `images/hero-${index}.jpg`;
+  const getImageSrc = (index) => `./images/hero-${index}.jpg`;
 
   return (
     <>
